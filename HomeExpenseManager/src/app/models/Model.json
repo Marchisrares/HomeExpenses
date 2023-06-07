@@ -1,0 +1,40 @@
+[
+  {
+    "monthYear": "",
+    "monthNumber": "",
+    "tables": [
+      {
+        "tableName": "earnings",
+        "columns": ["date", "name", "amount"],
+        "rows": [
+          {
+            "date": "",
+            "name": "",
+            "amount": ""
+          }
+        ]
+      },
+      {
+        "tableName": "expenditure",
+        "columns": ["date", "name", "amount"],
+        "rows": [
+          {
+            "date": "",
+            "name": "",
+            "amount": ""
+          }
+        ]
+      }
+    ],
+    "calculations": [
+      {
+        "name": "previous-savings",
+        "value": "1000"
+      },
+      {
+        "name": "current-savings",
+        "value": "1000"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+<!-- HEADER -->
+<app-header (sideNavToggled)="menuButtonStatus = $event"></app-header>
+
+<!-- SIDE-NAV BAR -->
+<app-side-nav [ngClass]="{'app-side-nav-open': menuButtonStatus}"></app-side-nav>
+
+<!-- MAIN AREA TO DISPLAY TABLES AND FOOTER AT BOTTOM -->
+<main [ngClass]="{'main-area-shrink': menuButtonStatus}">
+
+    <!-- AREA TO DISPLAY ALL THE MONTHS -->
+    <app-months></app-months>
+
+    <!-- FOOTER -->
+    <app-footer></app-footer>
+
+</main>
